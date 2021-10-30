@@ -12,5 +12,4 @@ Same stratagy:
 2. Commit [589b691e77170278b5587a6955627acf53d6f8ff](https://github.com/michele-perrone/STM32F3-USB-Classes-from-template/commit/589b691e77170278b5587a6955627acf53d6f8ff)
 3. Commit [e34a95fb31b90af3d64fc89eb66eb54f5af5e685](https://github.com/michele-perrone/STM32F3-USB-Classes-from-template/commit/e34a95fb31b90af3d64fc89eb66eb54f5af5e685)
 ## USB MIDI Class
-Once it's perfectly clear what exactly is needed to write USB classes that work, I can start writing the USB MIDI class. In a few words, what needs to be done is expanding the USB Audio Class in order to accomodate the MIDIStreaming Interface Subclass as described in the [Universal Serial Bus Device Class Definition for Audio Devices v1.0](https://www.usb.org/sites/default/files/audio10.pdf).
-.
+Once it's perfectly clear what exactly is needed to write USB classes that work, I can start writing the USB MIDI class. In a few words, what needs to be done is expanding the USB Audio Class in order to accomodate the MIDIStreaming Interface Subclass as described in the [Universal Serial Bus Device Class Definition for Audio Devices v1.0](https://www.usb.org/sites/default/files/audio10.pdf) and [Universal Serial Bus Device Class Definition for MIDI Devices](https://www.usb.org/sites/default/files/midi10.pdf).
