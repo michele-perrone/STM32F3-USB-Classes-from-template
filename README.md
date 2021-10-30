@@ -1,5 +1,6 @@
-# STM32F3 USB CDC from template
-Create a working USB CDC class starting from the clear template provided by ST.   
+# STM32F3 USB Classes from template
+The goal being able to create working USB classes to be used by STM32F3 MCUs by starting from the clean template provided by ST. The template can be retrieved by downloading the firmware package.   
+## USB CDC Class
 Strategy:   
 1. Create a clean STM32F3 Discovery project with STM32CubeIDE, peripherals initialized to default mode. The important thing is to have the user USB port enabled (USB FS), but not USB Device class selected (commit [96b7e58118a8e7295219f0b2bf272d08bb8437e1](https://github.com/michele-perrone/STM32F3-USB_CDC-from-template/commit/96b7e58118a8e7295219f0b2bf272d08bb8437e1))
 2. Add to the project the clear USB Class template, provided by ST in the firmware folder. Put the files in the exact same place where CubeIDE places them. Rename them to match the filenames of the CDC class (commit [e3b3add08c9947f8ff604fccf922febdf672e7c4](https://github.com/michele-perrone/STM32F3-USB_CDC-from-template/commit/e3b3add08c9947f8ff604fccf922febdf672e7c4))
